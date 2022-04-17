@@ -8,7 +8,7 @@ const increaseValue = 13;
 export class AirConditioner extends Device implements IDevice {
   private turnedOff: boolean = false;
 
-  private temperature: number = 22;
+  private temperature: number = 22;// for example
 
   private decreaseTemperature(): void {
     this.checkOff();
